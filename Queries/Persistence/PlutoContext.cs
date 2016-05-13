@@ -1,4 +1,4 @@
-using Queries.Core.Domain;
+using Common.Core.Domain;
 using Queries.Persistence.EntityConfigurations;
 using System.Data.Entity;
 

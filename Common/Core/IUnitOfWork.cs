@@ -1,7 +1,7 @@
-using Queries.Core.Repositories;
+using Common.Core.Repositories;
 using System;
 
-namespace Queries.Core
+namespace Common.Core
 {
     public interface IUnitOfWork : IDisposable
     {

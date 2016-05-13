@@ -1,5 +1,5 @@
-using Queries.Core.Domain;
-using Queries.Core.Repositories;
+using Common.Core.Domain;
+using Common.Core.Repositories;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;

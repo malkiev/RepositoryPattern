@@ -1,4 +1,4 @@
-﻿using Queries.Core.Domain;
+﻿using Common.Core.Domain;
 using System.Data.Entity.ModelConfiguration;
 
 namespace Queries.Persistence.EntityConfigurations

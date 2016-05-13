@@ -1,6 +1,6 @@
-using Queries.Core.Domain;
+using Common.Core.Domain;
 
-namespace Queries.Core.Repositories
+namespace Common.Core.Repositories
 {
     public interface IAuthorRepository : IRepository<Author>
     {

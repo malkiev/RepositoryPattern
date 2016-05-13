@@ -1,7 +1,8 @@
-using Queries.Core.Domain;
+using Common.Core.Domain;
 using Queries.Persistence;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace Queries.Migrations
 {
@@ -72,7 +73,7 @@ namespace Queries.Migrations
                 {
                     Id = 1,
                     Name = "C# Basics",
-                    Author = authors[0],
+                    AuthorId = authors[0].Id,
                     FullPrice = 49,
                     Description = "Description for C# Basics",
                     Level = 1,
@@ -85,7 +86,7 @@ namespace Queries.Migrations
                 {
                     Id = 2,
                     Name = "C# Intermediate",
-                    Author = authors[0],
+                    AuthorId = authors[0].Id,
                     FullPrice = 49,
                     Description = "Description for C# Intermediate",
                     Level = 2,
@@ -99,7 +100,7 @@ namespace Queries.Migrations
                 {
                     Id = 3,
                     Name = "C# Advanced",
-                    Author = authors[0],
+                    AuthorId = authors[0].Id,
                     FullPrice = 69,
                     Description = "Description for C# Advanced",
                     Level = 3,
@@ -112,7 +113,7 @@ namespace Queries.Migrations
                 {
                     Id = 4,
                     Name = "Javascript: Understanding the Weird Parts",
-                    Author = authors[1],
+                    AuthorId = authors[1].Id,
                     FullPrice = 149,
                     Description = "Description for Javascript",
                     Level = 2,
@@ -125,7 +126,7 @@ namespace Queries.Migrations
                 {
                     Id = 5,
                     Name = "Learn and Understand AngularJS",
-                    Author = authors[1],
+                    AuthorId = authors[1].Id,
                     FullPrice = 99,
                     Description = "Description for AngularJS",
                     Level = 2,
@@ -138,7 +139,7 @@ namespace Queries.Migrations
                 {
                     Id = 6,
                     Name = "Learn and Understand NodeJS",
-                    Author = authors[1],
+                    AuthorId = authors[1].Id,
                     FullPrice = 149,
                     Description = "Description for NodeJS",
                     Level = 2,
@@ -151,7 +152,7 @@ namespace Queries.Migrations
                 {
                     Id = 7,
                     Name = "Programming for Complete Beginners",
-                    Author = authors[2],
+                    AuthorId = authors[2].Id,
                     FullPrice = 45,
                     Description = "Description for Programming for Beginners",
                     Level = 1,
@@ -164,7 +165,7 @@ namespace Queries.Migrations
                 {
                     Id = 8,
                     Name = "A 16 Hour C# Course with Visual Studio 2013",
-                    Author = authors[3],
+                    AuthorId = authors[3].Id,
                     FullPrice = 150,
                     Description = "Description 16 Hour Course",
                     Level = 1,
@@ -177,7 +178,7 @@ namespace Queries.Migrations
                 {
                     Id = 9,
                     Name = "Learn JavaScript Through Visual Studio 2013",
-                    Author = authors[3],
+                    AuthorId = authors[3].Id,
                     FullPrice = 20,
                     Description = "Description Learn Javascript",
                     Level = 1,

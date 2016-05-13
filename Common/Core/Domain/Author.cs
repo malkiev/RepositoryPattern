@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Queries.Core.Domain
+namespace Common.Core.Domain
 {
     public class Author
     {

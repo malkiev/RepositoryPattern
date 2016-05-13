@@ -1,5 +1,5 @@
-﻿using Queries.Core;
-using Queries.Core.Repositories;
+﻿using Common.Core;
+using Common.Core.Repositories;
 using Queries.Persistence.Repositories;
 
 namespace Queries.Persistence
