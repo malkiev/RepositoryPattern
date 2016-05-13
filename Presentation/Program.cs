@@ -11,7 +11,8 @@ namespace Presentation
     {
         static void Main(string[] args)
         {
-            
+            Business.AuthorController ac = new Business.AuthorController();
+            var author = ac.GetAuthorWithCourses(1);
             
         }
     }

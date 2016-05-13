@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{8563c491-2b2b-4164-aedf-e2fc4c3d446a}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{8bff12ea-0b5d-4611-831c-00e684c27c10}</Project>
       <Name>Common</Name>
