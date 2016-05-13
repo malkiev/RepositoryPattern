@@ -1,4 +1,4 @@
-﻿using Business.Core;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +9,10 @@ namespace Presentation
 {
     class Program
     {
-        private readonly IUnitOfWork unitofWork;
         static void Main(string[] args)
         {
             
-            var courses= unitofWork.Courses.GetAll();
+            
         }
     }
 }
